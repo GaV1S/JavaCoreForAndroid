@@ -2,23 +2,6 @@ import java.util.Arrays;
 
 public class Main {
 
-    public static void main(String[] args) {
-        // Задание 1
-        int[] array1 = {1, 2, 4, 4, 2, 3, 4, 1, 7};
-        try {
-            System.out.println(Arrays.toString(arraySliceAfterLast4(array1)));
-        } catch (RuntimeException e) {
-            e.printStackTrace();
-        }
-        // Задание 2
-        int[] array2 = {1, 1, 4, 1, 1, 4, 1, 1, 4, 4};
-        try {
-            System.out.println(checkCompositionArrayFrom1And4Numbers(array2));
-        } catch (RuntimeException e) {
-            e.printStackTrace();
-        }
-    }
-
     public static int[] arraySliceAfterLast4(int[] array) throws RuntimeException{
         int last4Index = -1;
         for (int i = 0; i < array.length; i++) {
