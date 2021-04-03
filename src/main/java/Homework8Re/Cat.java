@@ -11,6 +11,8 @@ public class Cat implements Overcoming {
         this.maxJump = maxJump;
     }
 
+
+
     @Override
     public void setMaxRun(int maxRun) {
         this.maxRun = maxRun;
