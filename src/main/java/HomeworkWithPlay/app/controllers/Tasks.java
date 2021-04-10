@@ -1,0 +1,11 @@
+package HomeworkWithPlay.app.controllers;
+
+import play.*;
+import play.mvc.*;
+
+import java.util.*;
+
+import models.*;
+
+public class Tasks extends CRUD {
+}
